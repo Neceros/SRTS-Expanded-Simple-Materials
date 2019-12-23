@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>SRTS Expanded Realism Patch</name>
+  <name>SRTS Expanded Simple Mats</name>
   <author>Neceros</author>
   <supportedVersions><li>1.0</li></supportedVersions>
-  <description>Changes various aspects of the SRTS line to make the experience more immersive.</description>
+  <description>
+Removes the component system from SRTS Expanded. All shuttles will require basic rimworld materials.
+
+
+Also works with the Realism Patch.</description>
 </ModMetaData>
