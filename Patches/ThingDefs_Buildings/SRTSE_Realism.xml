@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>SRTS</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Building_Helicopter"]/costList</xpath>
+          <value>
+            <costList>
+              <Steel>4000</Steel>
+              <Plasteel>850</Plasteel>
+              <ComponentIndustrial>50</ComponentIndustrial>
+              <ComponentSpacer>3</ComponentSpacer>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SRTSSuperpod"]/costList</xpath>
+        <value>
+          <costList>
+            <Steel>850</Steel>
+            <Plasteel>50</Plasteel>
+            <Gold>120</Gold>
+            <Silver>1200</Silver>
+            <ComponentIndustrial>12</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SRTSSkip"]/costList</xpath>
+        <value>
+          <costList>
+            <Steel>2400</Steel>
+            <Plasteel>150</Plasteel>
+            <Gold>160</Gold>
+            <Silver>4650</Silver>
+            <ComponentIndustrial>18</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SRTF"]/costList</xpath>
+        <value>
+          <costList>
+            <ShuttleComp_Plates>24</ShuttleComp_Plates>
+            <ShuttleComp_MechSystem>20</ShuttleComp_MechSystem>
+            <ShuttleComp_ElectricSystem>8</ShuttleComp_ElectricSystem>
+            <ShuttleComp_Engines>12</ShuttleComp_Engines>
+            <ShuttleComp_Structural>6</ShuttleComp_Structural>
+          </costList>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SRTSMkII"]/costList</xpath>
+        <value>
+          <costList>
+            <ShuttleComp_Plates>12</ShuttleComp_Plates>
+            <ShuttleComp_MechSystem>12</ShuttleComp_MechSystem>
+            <ShuttleComp_ElectricSystem>12</ShuttleComp_ElectricSystem>
+            <ShuttleComp_Engines>7</ShuttleComp_Engines>
+            <ShuttleComp_Structural>24</ShuttleComp_Structural>
+          </costList>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SRTSMkIII"]/costList</xpath>
+        <value>
+          <costList>
+            <ShuttleComp_MeshPlate>24</ShuttleComp_MeshPlate>
+            <ShuttleComp_MechSystem>6</ShuttleComp_MechSystem>
+            <ShuttleComp_ElectricSystem>12</ShuttleComp_ElectricSystem>
+            <ShuttleComp_Engines>12</ShuttleComp_Engines>
+            <ShuttleComp_Structural>24</ShuttleComp_Structural>
+          </costList>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SRTSMkIV"]/costList</xpath>
+        <value>
+          <costList>
+            <ShuttleComp_Plates>32</ShuttleComp_Plates>
+            <ShuttleComp_MechSystem>30</ShuttleComp_MechSystem>
+            <ShuttleComp_ElectricSystem>25</ShuttleComp_ElectricSystem>
+            <ShuttleComp_Structural>32</ShuttleComp_Structural>
+            <ShuttleComp_Reactor>1</ShuttleComp_Reactor>
+            <ShuttleComp_DimShift>5</ShuttleComp_DimShift>
+          </costList>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>
