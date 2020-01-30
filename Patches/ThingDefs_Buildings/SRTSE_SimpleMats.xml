@@ -49,6 +49,20 @@
           </value>
         </li>
         <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SRTSMkIIIp"]/costList</xpath>
+          <value>
+            <costList>
+              <Steel>5000</Steel>
+              <Plasteel>1337</Plasteel>
+              <Gold>520</Gold>
+              <Neutroamine>250</Neutroamine>
+              <Uranium>320</Uranium>
+              <ComponentIndustrial>60</ComponentIndustrial>
+              <ComponentSpacer>24</ComponentSpacer>
+            </costList>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
           <xpath>Defs/ThingDef[defName="SRTSMkIV"]/costList</xpath>
           <value>
             <costList>
@@ -123,6 +137,20 @@
           </value>
         </li>
         <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SRTSMkIIIp"]/costList</xpath>
+          <value>
+            <costList>
+              <Steel>2200</Steel>
+              <Plasteel>380</Plasteel>
+              <Gold>500</Gold>
+              <Silver>10500</Silver>
+              <Uranium>125</Uranium>
+              <ComponentIndustrial>32</ComponentIndustrial>
+              <ComponentSpacer>8</ComponentSpacer>
+            </costList>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
           <xpath>Defs/ThingDef[defName="SRTSMkIV"]/costList</xpath>
           <value>
             <costList>
@@ -148,7 +176,8 @@
       <li Class="PatchOperationRemove">
         <xpath>
           Defs/ThingDef[@Name="SRTSCompBase"]/tradeTags | 
-          Defs/ThingDef[@Name="SRTSCompBase" or @Name="SRTSAdvCompBase" or @Name="SRTSArchoCompBase"]/recipeMaker
+          Defs/ThingDef[@Name="SRTSCompBase" or @Name="SRTSAdvCompBase" or @Name="SRTSArchoCompBase"]/recipeMaker |
+          Defs/ThingDef[@Name="SRTSCompBase"]/thingCategories
         </xpath>
       </li>
       <li Class="PatchOperationRemove">
