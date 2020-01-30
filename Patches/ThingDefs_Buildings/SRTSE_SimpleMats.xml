@@ -77,21 +77,6 @@
             </costList>
           </value>
         </li>
-        <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="SRTSMkIV"]/costList</xpath>
-          <value>
-            <costList>
-              <Steel>3800</Steel>
-              <Plasteel>1800</Plasteel>
-              <Gold>1024</Gold>
-              <Silver>24000</Silver>
-              <Uranium>640</Uranium>
-              <Hyperweave>80</Hyperweave>
-              <ComponentIndustrial>80</ComponentIndustrial>
-              <ComponentSpacer>36</ComponentSpacer>
-            </costList>
-          </value>
-        </li>
       </operations>
     </match>
     <nomatch Class="PatchOperationSequence">
