@@ -9,7 +9,7 @@
       <success>Always</success>
       <operations>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="SRTF"]/costList</xpath>
+          <xpath>Defs/ThingDef[defName="SRAF"]/costList</xpath>
           <value>
             <costList>
               <Steel>8500</Steel>
@@ -17,6 +17,18 @@
               <Gold>250</Gold>
               <Silver>3400</Silver>
               <ComponentIndustrial>24</ComponentIndustrial>
+            </costList>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SRAFTek"]/costList</xpath>
+          <value>
+            <costList>
+              <Steel>14600</Steel>
+              <Plasteel>425</Plasteel>
+              <Gold>250</Gold>
+              <Silver>3000</Silver>
+              <ComponentIndustrial>48</ComponentIndustrial>
             </costList>
           </value>
         </li>
@@ -85,13 +97,26 @@
       <success>Always</success>
       <operations>
         <li Class="PatchOperationReplace">
-          <xpath>Defs/ThingDef[defName="SRTF"]/costList</xpath>
+          <xpath>Defs/ThingDef[defName="SRAF"]/costList</xpath>
           <value>
             <costList>
               <Steel>3200</Steel>
               <Gold>225</Gold>
               <Silver>3200</Silver>
               <ComponentIndustrial>16</ComponentIndustrial>
+            </costList>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="SRAFTek"]/costList</xpath>
+          <value>
+            <costList>
+              <ShuttleComp_Plates>20</ShuttleComp_Plates>
+              <ShuttleComp_MechSystem>30</ShuttleComp_MechSystem>
+              <ShuttleComp_ElectricSystem>15</ShuttleComp_ElectricSystem>
+              <ShuttleComp_Engines>12</ShuttleComp_Engines>
+              <ShuttleComp_Structural>24</ShuttleComp_Structural>
+              <Silver>4500</Silver>
             </costList>
           </value>
         </li>

@@ -2,7 +2,11 @@
 <ModMetaData>
   <name>SRTS Expanded Simple Mats</name>
   <author>Neceros</author>
-  <supportedVersions><li>1.0</li></supportedVersions>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>neceros.srtsesimplematerials</packageId>
   <description>
 Removes the component system from SRTS Expanded. All shuttles will require basic rimworld materials.
 
