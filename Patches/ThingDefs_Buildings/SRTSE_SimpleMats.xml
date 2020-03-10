@@ -111,12 +111,11 @@
           <xpath>Defs/ThingDef[defName="SRAFTek"]/costList</xpath>
           <value>
             <costList>
-              <ShuttleComp_Plates>20</ShuttleComp_Plates>
-              <ShuttleComp_MechSystem>30</ShuttleComp_MechSystem>
-              <ShuttleComp_ElectricSystem>15</ShuttleComp_ElectricSystem>
-              <ShuttleComp_Engines>12</ShuttleComp_Engines>
-              <ShuttleComp_Structural>24</ShuttleComp_Structural>
-              <Silver>4500</Silver>
+              <Steel>4500</Steel>
+              <Plasteel>125</Plasteel>
+              <Gold>300</Gold>
+              <Silver>4700</Silver>
+              <ComponentIndustrial>20</ComponentIndustrial>
             </costList>
           </value>
         </li>
